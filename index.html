@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manisha's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header id="header">
+        <nav>
+            <div class="left">Manisha's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Manisha</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="pic3.png" alt="">
+            </div>
+        </section>
+        <hr>
+      
+        <!-- ----------------About page-------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="pic-rect.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About <span>Me</span></h1>
+                        <p>Myself Manisha, currently pursuing Bachelor of Technology
+                            in Computer Science and Engineering from National Institute
+                            of Technology Patna. In my course curriculum I learnt many subject
+                            like CS Fundamentals - OOPs, Operating System, DBMS, Compiler Design,
+                            Data Structures and many more.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('interest')">Work Experience</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Web App Development</li>
+                                <li><span>Languages</span><br>C++, C, Java Basics, HTML, CSS, Javascript
+                                    Basics,<br>NodeJS, ExpressJS, Python Basics, STL</li>
+                                <li><span>Cloud/Databases</span><br>MongoDB, MySql</li>
+                                <li><span>Soft Skills</span><br>Communication, Confidence, Team Building,<br> Decision
+                                    Making, Creativity, Ambitious</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021-Current</span><br>National Institute of Technology Patna</li>
+                                <li><span>2018-2020</span><br>Govt. Sen. Sec. School Nawanshahr, Punjab</li>
+                                <li><span>2018</span><br>M.D.K.S.D Public Sen. Sec. School Garhshankar, Punjab</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="interest">
+                            <ul>
+                                <li><span>Member (Hackslash NIT Patna)</span><br>Learned new skills-
+                                    HTML,CSS,Javascript, NodeJS,<br>ExpressJS, MongoDB </li>
+                                <li><span>Tutor (Sankalp NIT Patna)</span><br>Sankalp is an organisation that provide
+                                    free and <br>quality Education to needy students.</li>
+                                <li><span>Volunteer (NSS NIT Patna)</span><br>Visit villages for surveys.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- ------------Portfolio-------------->
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="cropped-work1.png" alt="">
+                        <div class="layer">
+                            <h3>Blog Management System</h3>
+                            <p>Developed a Blog management system using HTML, CSS, Node.js, Express.js, MongoDB, and ejs.</p>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="cropped-work3.png" alt="">
+                        <div class="layer">
+                            <h3>College MIS</h3>
+                            <p>Developed a College MIS Student Portal using HTML, CSS, Node.js, Express.js, MongoDB, and Handlebars.</p>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="cropped-work5.png" alt="">
+                        <div class="layer">
+                            <h3>Online Shopping Website</h3>
+                            <p>It is an Ecommerce website made with HTML ,CSS and Javascript</p>
+                                <a href="https://manisha2009.github.io/js-project-e-commerce/"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/Manisha2009" class="btn">See more</a>
+            </div>
+        </div>
+    <hr>
+
+      <!-- --------contact--------- -->
+
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title1">Contact <span>Me</span></h1>
+                    <p><i class="fas fa-paper-plane"></i>manisha97402@gmail.com</p>
+                    <p><i class="fas fa-phone"></i>7719763143</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="resume.pdf"  download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" class="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright  <i class="fas fa-copyright"></i>  Manisha. Awesome  <i class="fas fa-heart"></i>  Portfolio</p>
+        </div>
+      </div>
+
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Competitive Programmer.', 'Coder.'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzc7wTxBz4JJl0btSrrWEpJfejIJYRjCZ0UzvrkOGLfFwMCQ1O6kHkXpUIAKGMz7g8u/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
